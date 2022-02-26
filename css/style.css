@@ -912,16 +912,17 @@ a.totop-link {
    #Last Screen
    ========================================================================== */
 .introduction-end {
-    background: url(../images/profile-big.jpg)no-repeat right top;
+    background: url(../images/profile-big.png)no-repeat right top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     cursor: pointer;
+    z-index:-1;
 }
 .introduction-end-con {
     float: right;
-    margin: 30% 0 0;
+    margin: 20% 0 0;
     width: 30%;
 }
 .introduction-end-con h3 {
